@@ -1,0 +1,65 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+
+int number1;
+int number2;
+int Sum;
+sum = Number1 + Number2;
+
+{
+WriteLine "Enter your first intiger: ";
+int Number1 = ReadLine();
+WriteLine "Enter your second intiger: ";
+int Number2 = ReadLine();
+WriteLine "The sum is: {sum}  " 
+ReadLine;
+}
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+
+
+WriteLine ("Enter a number:")
+int input = ReadLine();
+{
+if (int input % 2 == 0)
+{
+WriteLine("Your number is even.")
+}
+else
+{
+WriteLine("Your number is odd.""
+}
+ReadLine;
+}
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+WriteLine ("Enter number 1:")
+int a = ReadLine();
+WriteLine ("Enter number 2:")
+int b = ReadLine();
+WriteLine ("Enter number 3:")
+int c = ReadLine();
+WriteLine ("Enter number 4:")
+int d = ReadLine();
+WriteLine ("Enter number 5:")
+int e = ReadLine();
+
+int sum = a + b + c + d + e
+int average = sum / 5
+int smallest = (a < b && a < c && a < d && a < e) ? a : (( b < c && b < d && b < e) ? b: ( c < d && c < e) ? c : (d < e ? d : e ));
+int largest = (a > b && a > c && a > d && a > e) ? a : (( b > c && b > d && b > e) ? b: ( c > d && c > e) ? c : (d > e ? d : e ));
+
+WriteLine("The average of your five numbers is: {average}. The smallest of your five numbers is: {smallest}. The largest of your fiver numbers is: {largest}.");
+ReadLine;
+
+
+-- END --
